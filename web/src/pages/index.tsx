@@ -40,7 +40,7 @@ export default function Home(props: HomeProps) {
                 <Image 
                     src={logoImage}
                     alt={"NLW Copa"}
-                    quality={100}
+                    //quality={100}
                 />
 
                 <h1 className=" text-white-700 mt-14  text-5xl font-bold ">
@@ -75,7 +75,7 @@ export default function Home(props: HomeProps) {
                 </p>
                 <div className="mt-10 pt-10 border-t border-gray-600  flex items-center justify-between text-gray-100">
                     <div className="flex items-center gap-6">
-                        <Image src={checkIcon} alt={""} quality={100}/>
+                        <Image src={checkIcon} alt={""} />
                         <div className="flex flex-col">
                             <span className="font-bold text-2xl">+{props.poolCount}</span>
                             <span>Bolões criados</span>
@@ -85,7 +85,7 @@ export default function Home(props: HomeProps) {
                     <div className="w-px h-14 bg-gray-600"></div>
 
                     <div className="flex items-center gap-6">
-                        <Image src={checkIcon} alt={""} quality={100}/>
+                        <Image src={checkIcon} alt={""} />
                         <div className="flex flex-col">
                             <span className="font-bold text-2xl">+{props.guessCount}</span>
                             <span>Palpites enviados</span>
@@ -98,7 +98,7 @@ export default function Home(props: HomeProps) {
                 src={appPreviewImage} 
                 alt={"Celulares"} 
                 //width={600}
-                quality={100}
+               
             />
         </div>
     )
